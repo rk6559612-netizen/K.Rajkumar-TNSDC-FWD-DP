@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Laptop Models & Prices</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fc;
+      margin: 0;
+      padding: 20px;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #1a237e;
+      margin: 0;
+    }
+
+    /* Container grid */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    /* Card styles */
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Image styling */
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      background-color: #f0f0f0;
+      border-bottom: 1px solid #ddd;
+      padding: 15px;
+    }
+
+    /* Text content */
+    .laptop-model {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin: 15px 0 8px;
+      color: #283593;
+    }
+    .price {
+      font-size: 1.1rem;
+      color: #d32f2f;
+      font-weight: 600;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .card img {
+        height: 160px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Laptop Models & Prices (₹)</h1>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Dell XPS 13" />
+      <div class="laptop-model">Dell XPS 13</div>
+      <div class="price">₹ 1,15,000</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="HP Spectre x360" />
+      <div class="laptop-model">HP Spectre x360</div>
+      <div class="price">₹ 1,25,000</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Apple MacBook Pro" />
+      <div class="laptop-model">Apple MacBook Pro 14"</div>
+      <div class="price">₹ 1,90,000</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Lenovo ThinkPad X1" />
+      <div class="laptop-model">Lenovo ThinkPad X1 Carbon</div>
+      <div class="price">₹ 1,40,000</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Asus ROG Zephyrus" />
+      <div class="laptop-model">Asus ROG Zephyrus G14</div>
+      <div class="price">₹ 1,50,000</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Acer Swift 3" />
+      <div class="laptop-model">Acer Swift 3</div>
+      <div class="price">₹ 65,000</div>
+    </div>
+  </div>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
